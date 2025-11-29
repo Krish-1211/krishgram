@@ -63,15 +63,15 @@ export function PostCard({ project, index }: PostCardProps) {
             </div>
 
             {/* Image */}
-            <div className="relative aspect-video w-full bg-muted">
+            <div className="relative aspect-square w-full bg-muted">
                 <Image
                     src={project.image}
                     alt={project.title}
                     fill
                     className="object-cover"
+                    priority={index < 2}
                 />
             </div>
-
             {/* Actions */}
             <div className="p-3">
                 <div className="flex items-center justify-between mb-3">
