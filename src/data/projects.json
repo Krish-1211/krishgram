@@ -1,54 +1,110 @@
 [
   {
     "id": "1",
-    "title": "AI Code Assistant",
-    "caption": "Built a smart coding assistant using Gemini API. It understands context and suggests optimizations.",
-    "fullDescription": "A comprehensive VS Code extension that leverages the Gemini API to provide real-time code suggestions, refactoring tips, and documentation generation. Built with TypeScript and React for the webview.",
-    "tags": ["AI", "TypeScript", "React", "Gemini API"],
-    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1000&auto=format&fit=crop",
-    "demoUrl": "https://github.com",
-    "repoUrl": "https://github.com",
-    "likes": 234,
-    "comments": 12,
-    "date": "2024-11-15"
+    "title": "Real Estate Website",
+    "caption": "Designed and deployed a responsive real estate website showcasing listings, contact forms, and services. Focused on clean UI/UX design and mobile responsiveness.",
+    "tags": [
+      "WordPress",
+      "UI/UX",
+      "Web Design"
+    ],
+    "image": "/images/projects/reena-real-estate.png",
+    "likes": 124,
+    "comments": 18,
+    "commentsList": [
+      {
+        "user": "elonmusk",
+        "text": "Does it support Mars property listings yet? 🚀"
+      },
+      {
+        "user": "billgates",
+        "text": "Clean design. Reminds me of the early days of Windows... but better."
+      }
+    ],
+    "links": {
+      "demo": "https://realestatebyreena.com",
+      "github": "https://github.com/Krish-1211"
+    }
   },
   {
     "id": "2",
-    "title": "E-Commerce Dashboard",
-    "caption": "Modern analytics dashboard for online stores. Real-time data visualization with Recharts.",
-    "fullDescription": "A high-performance dashboard built with Next.js and Tailwind CSS. Features include dark mode, real-time sales tracking via WebSocket, and inventory management.",
-    "tags": ["Next.js", "Tailwind", "Recharts", "Supabase"],
-    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop",
-    "demoUrl": "https://github.com",
-    "repoUrl": "https://github.com",
-    "likes": 189,
-    "comments": 8,
-    "date": "2024-10-20"
+    "title": "Netflix Userbase Analysis",
+    "caption": "Analyzed global Netflix user data to extract behavioral insights. Visualized key metrics for audience segmentation and trends using Python libraries.",
+    "tags": [
+      "Python",
+      "Pandas",
+      "Matplotlib",
+      "Data Analysis"
+    ],
+    "image": "/images/projects/netflix-userbase.jpg",
+    "likes": 89,
+    "comments": 12,
+    "commentsList": [
+      {
+        "user": "reedhastings",
+        "text": "This data is more accurate than our internal dashboards! 🎬"
+      },
+      {
+        "user": "samaltman",
+        "text": "Impressive analysis. The AI potential here is huge."
+      }
+    ],
+    "links": {
+      "github": "https://github.com/Krish-1211"
+    }
   },
   {
     "id": "3",
-    "title": "Cybersecurity Scanner",
-    "caption": "Automated vulnerability scanner for web applications. Detects XSS and SQL injection patterns.",
-    "fullDescription": "A Python-based CLI tool that scans web applications for common security vulnerabilities. Integrates with CI/CD pipelines for automated security testing.",
-    "tags": ["Python", "Security", "CLI", "Automation"],
-    "image": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
-    "demoUrl": "https://github.com",
-    "repoUrl": "https://github.com",
-    "likes": 342,
-    "comments": 25,
-    "date": "2024-09-10"
+    "title": "AI Assistant 'Jarvis'",
+    "caption": "Implemented ML algorithms like Linear Regression, KNN, and K-Means. Built a voice-activated AI assistant 'Jarvis' using Python.",
+    "tags": [
+      "Python",
+      "Machine Learning",
+      "AI",
+      "Voice Assistant"
+    ],
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+    "likes": 256,
+    "comments": 45,
+    "commentsList": [
+      {
+        "user": "tonystark",
+        "text": "Finally, someone gets it right. Good job, kid. 🦾"
+      },
+      {
+        "user": "sundarpichai",
+        "text": "Very cool! Have you tried integrating Gemini API?"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/Krish-1211"
+    }
   },
   {
     "id": "4",
-    "title": "Social Media App",
-    "caption": "A clone of a popular social media platform with real-time chat and stories.",
-    "fullDescription": "Full-stack social media application with features like infinite scroll, real-time messaging, and ephemeral stories. Backend powered by Node.js and MongoDB.",
-    "tags": ["React Native", "Node.js", "MongoDB", "Socket.io"],
-    "image": "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1000&auto=format&fit=crop",
-    "demoUrl": "https://github.com",
-    "repoUrl": "https://github.com",
-    "likes": 567,
-    "comments": 45,
-    "date": "2024-08-05"
+    "title": "Dental Clinic Website",
+    "caption": "Designed and built a fully responsive frontend for a fictional dental clinic using HTML, CSS, and Bootstrap.",
+    "tags": [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "Frontend"
+    ],
+    "image": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=800&q=80",
+    "likes": 76,
+    "comments": 8,
+    "commentsList": [
+      {
+        "user": "markzuckerberg",
+        "text": "The social integration on this is seamless."
+      },
+      {
+        "user": "tim_cook",
+        "text": "Looks stunning on iPhone 15 Pro Max. Great work!"
+      }
+    ],
+    "links": {
+      "github": "https://github.com/Krish-1211"
+    }
   }
 ]

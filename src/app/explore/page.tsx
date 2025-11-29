@@ -7,16 +7,10 @@ import { BottomNav } from "@/components/layout/BottomNav";
 import { FilterBar } from "@/components/explore/FilterBar";
 import { MasonryGrid } from "@/components/explore/MasonryGrid";
 
-// Mock data for explore page
-const exploreItems = Array.from({ length: 20 }).map((_, i) => ({
-    id: `explore-${i}`,
-    image: `https://picsum.photos/seed/${i + 100}/500/${Math.floor(Math.random() * 300 + 400)}`,
-    title: `Project ${i}`,
-    likes: Math.floor(Math.random() * 1000),
-    comments: Math.floor(Math.random() * 100),
-    type: "image" as const,
-    category: ["All", "React", "AI", "Web", "Design", "Security"][Math.floor(Math.random() * 6)],
-}));
+import exploreData from "@/data/explore.json";
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const exploreItems = exploreData as any[];
 
 const filters = ["All", "React", "AI", "Web", "Data", "Security", "Design"];
 

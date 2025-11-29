@@ -1,0 +1,182 @@
+[
+    {
+        "id": "explore-1",
+        "image": "https://placehold.co/600x800/1a1a1a/FFF?text=Python+Cheat+Sheet",
+        "title": "Python Cheat Sheet",
+        "likes": 1240,
+        "comments": 45,
+        "type": "image",
+        "category": "AI"
+    },
+    {
+        "id": "explore-2",
+        "image": "https://placehold.co/600x800/2b2b2b/61DAFB?text=React+Hooks+Guide",
+        "title": "React Hooks Guide",
+        "likes": 890,
+        "comments": 32,
+        "type": "image",
+        "category": "React"
+    },
+    {
+        "id": "explore-3",
+        "image": "https://placehold.co/600x400/000000/F7DF1E?text=JavaScript+ES6+",
+        "title": "Modern JavaScript",
+        "likes": 2100,
+        "comments": 120,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-4",
+        "image": "https://placehold.co/600x900/1e1e1e/3178C6?text=TypeScript+Types",
+        "title": "TypeScript Advanced Types",
+        "likes": 1500,
+        "comments": 85,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-5",
+        "image": "https://placehold.co/600x600/0f0f0f/00ADD8?text=Go+Concurrency",
+        "title": "Go Goroutines",
+        "likes": 950,
+        "comments": 28,
+        "type": "image",
+        "category": "Security"
+    },
+    {
+        "id": "explore-6",
+        "image": "https://placehold.co/600x800/202020/DEA584?text=Rust+Ownership",
+        "title": "Rust Ownership Model",
+        "likes": 1800,
+        "comments": 95,
+        "type": "image",
+        "category": "Security"
+    },
+    {
+        "id": "explore-7",
+        "image": "https://placehold.co/600x500/111/FF4081?text=CSS+Grid+Layout",
+        "title": "Mastering CSS Grid",
+        "likes": 3200,
+        "comments": 210,
+        "type": "image",
+        "category": "Design"
+    },
+    {
+        "id": "explore-8",
+        "image": "https://placehold.co/600x700/000/00C853?text=Docker+Commands",
+        "title": "Docker CLI Essentials",
+        "likes": 1100,
+        "comments": 40,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-9",
+        "image": "https://placehold.co/600x800/1a1a1a/FF6D00?text=AWS+Services+Map",
+        "title": "AWS Cloud Architecture",
+        "likes": 1450,
+        "comments": 60,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-10",
+        "image": "https://placehold.co/600x600/2d2d2d/764ABC?text=Redux+Flow",
+        "title": "Redux State Management",
+        "likes": 780,
+        "comments": 25,
+        "type": "image",
+        "category": "React"
+    },
+    {
+        "id": "explore-11",
+        "image": "https://placehold.co/600x900/121212/4CAF50?text=Node.js+Event+Loop",
+        "title": "Node.js Internals",
+        "likes": 1600,
+        "comments": 75,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-12",
+        "image": "https://placehold.co/600x500/000/2979FF?text=Kubernetes+Pods",
+        "title": "K8s Architecture",
+        "likes": 1300,
+        "comments": 55,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-13",
+        "image": "https://placehold.co/600x800/1c1c1c/FFD600?text=Python+Data+Science",
+        "title": "Pandas & NumPy",
+        "likes": 2200,
+        "comments": 110,
+        "type": "image",
+        "category": "Data"
+    },
+    {
+        "id": "explore-14",
+        "image": "https://placehold.co/600x700/222/E91E63?text=GraphQL+vs+REST",
+        "title": "API Design Patterns",
+        "likes": 1750,
+        "comments": 90,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-15",
+        "image": "https://placehold.co/600x600/181818/00E676?text=Cybersecurity+Basics",
+        "title": "Network Security 101",
+        "likes": 1900,
+        "comments": 130,
+        "type": "image",
+        "category": "Security"
+    },
+    {
+        "id": "explore-16",
+        "image": "https://placehold.co/600x800/151515/651FFF?text=Figma+Shortcuts",
+        "title": "Design Workflow",
+        "likes": 2500,
+        "comments": 150,
+        "type": "image",
+        "category": "Design"
+    },
+    {
+        "id": "explore-17",
+        "image": "https://placehold.co/600x500/252525/FF3D00?text=Git+Commands",
+        "title": "Git Version Control",
+        "likes": 3100,
+        "comments": 200,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-18",
+        "image": "https://placehold.co/600x900/101010/00B0FF?text=Flutter+Widgets",
+        "title": "Mobile Dev with Flutter",
+        "likes": 1400,
+        "comments": 65,
+        "type": "image",
+        "category": "Web"
+    },
+    {
+        "id": "explore-19",
+        "image": "https://placehold.co/600x700/1f1f1f/FFC107?text=SQL+Joins",
+        "title": "Database Management",
+        "likes": 1650,
+        "comments": 80,
+        "type": "image",
+        "category": "Data"
+    },
+    {
+        "id": "explore-20",
+        "image": "https://placehold.co/600x800/0d0d0d/18FFFF?text=Machine+Learning",
+        "title": "ML Algorithms",
+        "likes": 2800,
+        "comments": 180,
+        "type": "image",
+        "category": "AI"
+    }
+]

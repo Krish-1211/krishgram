@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Home, Compass, Clapperboard, MessageCircle, User, Search } from "lucide-react";
+import { Home, Compass, Clapperboard, MessageCircle, User, Search, Camera } from "lucide-react";
 import { ThemeToggle } from "./ThemeToggle";
 import { Container } from "../ui/Container";
 import { cn } from "@/lib/utils";
@@ -21,8 +21,13 @@ export function TopNav() {
     return (
         <header className="sticky top-0 z-50 w-full border-b bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/60">
             <Container className="flex h-16 items-center justify-between">
-                <Link href="/" className="text-2xl font-bold bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent">
-                    Krishgram
+                <Link href="/" className="flex items-center gap-2 group">
+                    <div className="relative flex items-center justify-center w-8 h-8 rounded-xl bg-gradient-to-tr from-yellow-400 via-red-500 to-purple-500 text-white shadow-lg transition-transform group-hover:scale-105">
+                        <Camera className="w-5 h-5" />
+                    </div>
+                    <span className="text-2xl font-bold font-oleo bg-gradient-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent hidden sm:block pt-1">
+                        Krishgram
+                    </span>
                 </Link>
 
                 {/* Search Bar (Visual only for now) */}

@@ -32,7 +32,7 @@ export default function ProfilePage() {
                     {profileData.highlights.map((highlight, index) => (
                         <HighlightBubble
                             key={highlight.id}
-                            label={highlight.label}
+                            label={highlight.title}
                             iconName={highlight.icon}
                             onClick={() => setSelectedCert(certificatesData[index % certificatesData.length])}
                         />

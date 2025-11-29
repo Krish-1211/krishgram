@@ -91,21 +91,21 @@ export function ResumeInterface() {
                                 <h2 className="text-2xl font-bold border-b border-green-500/30 pb-2 mb-4">System Capabilities</h2>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                     <div>
-                                        <h3 className="text-lg font-semibold mb-3 text-green-300">Frontend Core</h3>
+                                        <h3 className="text-lg font-semibold mb-3 text-green-300">Languages & Web</h3>
                                         <ul className="space-y-2">
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Python, C, C++</li>
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> HTML, CSS, JavaScript</li>
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Bootstrap, Tailwind CSS</li>
                                             <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> React / Next.js</li>
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> TypeScript</li>
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Tailwind CSS</li>
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Framer Motion</li>
                                         </ul>
                                     </div>
                                     <div>
-                                        <h3 className="text-lg font-semibold mb-3 text-green-300">Backend Systems</h3>
+                                        <h3 className="text-lg font-semibold mb-3 text-green-300">Data Science & Tools</h3>
                                         <ul className="space-y-2">
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Node.js / Express</li>
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Python / Django</li>
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> PostgreSQL / MongoDB</li>
-                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> AWS / Docker</li>
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Pandas, NumPy, Matplotlib</li>
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Power BI, SQL</li>
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> Machine Learning, AI</li>
+                                            <li className="flex items-center gap-2"><div className="w-2 h-2 bg-green-500 rounded-full" /> GitHub, VS Code, Jupyter</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -118,15 +118,9 @@ export function ResumeInterface() {
                                 <div className="relative border-l border-green-500/30 pl-6 ml-2 space-y-8">
                                     <div className="relative">
                                         <div className="absolute -left-[31px] top-1 w-4 h-4 bg-green-500 rounded-full border-4 border-black" />
-                                        <h3 className="text-xl font-bold text-green-300">Senior Frontend Engineer</h3>
-                                        <p className="text-sm opacity-70 mb-2">TechCorp Inc. | 2023 - Present</p>
-                                        <p className="opacity-90">Led the migration of legacy monolith to micro-frontends. Improved site performance by 40%.</p>
-                                    </div>
-                                    <div className="relative">
-                                        <div className="absolute -left-[31px] top-1 w-4 h-4 bg-green-500 rounded-full border-4 border-black" />
-                                        <h3 className="text-xl font-bold text-green-300">Full Stack Developer</h3>
-                                        <p className="text-sm opacity-70 mb-2">StartupX | 2021 - 2023</p>
-                                        <p className="opacity-90">Built the MVP from scratch using MERN stack. Scaled to 10k daily active users.</p>
+                                        <h3 className="text-xl font-bold text-green-300">IT Trainer</h3>
+                                        <p className="text-sm opacity-70 mb-2">Freelance | 2023 - Present</p>
+                                        <p className="opacity-90">Taught and mentored students in core computer science subjects including C, C++, Python, Web Development, and Data Science. Designed beginner-to-advanced level content and guided learners through hands-on projects.</p>
                                     </div>
                                 </div>
                             </div>
@@ -136,9 +130,14 @@ export function ResumeInterface() {
                             <div className="space-y-6">
                                 <h2 className="text-2xl font-bold border-b border-green-500/30 pb-2 mb-4">Knowledge Base</h2>
                                 <div className="bg-green-500/5 p-6 rounded border border-green-500/20">
-                                    <h3 className="text-xl font-bold text-green-300">Bachelor of Science in Computer Science</h3>
-                                    <p className="text-sm opacity-70 mb-2">University of Technology | 2017 - 2021</p>
-                                    <p className="opacity-90">Specialized in Artificial Intelligence and Distributed Systems. Graduated with Honors.</p>
+                                    <h3 className="text-xl font-bold text-green-300">B.Tech. - Computer Science Engineering</h3>
+                                    <p className="text-sm opacity-70 mb-2">Parul University (PIT) | 2022 - 2026</p>
+                                    <p className="opacity-90">CGPA: 6.91 / 10</p>
+                                </div>
+                                <div className="bg-green-500/5 p-6 rounded border border-green-500/20">
+                                    <h3 className="text-xl font-bold text-green-300">12th Grade (CBSE)</h3>
+                                    <p className="text-sm opacity-70 mb-2">Urmi School | 2022</p>
+                                    <p className="opacity-90">Percentage: 73%</p>
                                 </div>
                             </div>
                         )}
@@ -149,17 +148,31 @@ export function ResumeInterface() {
                                 <div className="grid gap-4">
                                     <div className="flex items-center justify-between p-4 bg-green-500/5 rounded border border-green-500/20">
                                         <div>
-                                            <h3 className="font-bold text-green-300">AWS Certified Solutions Architect</h3>
-                                            <p className="text-sm opacity-70">Amazon Web Services</p>
+                                            <h3 className="font-bold text-green-300">Data Science Professional Program</h3>
+                                            <p className="text-sm opacity-70">Baroda Institute of Technology | Score: 90.30/100</p>
                                         </div>
                                         <span className="text-xs border border-green-500/50 px-2 py-1 rounded">VERIFIED</span>
                                     </div>
                                     <div className="flex items-center justify-between p-4 bg-green-500/5 rounded border border-green-500/20">
                                         <div>
-                                            <h3 className="font-bold text-green-300">Google Professional Cloud Developer</h3>
-                                            <p className="text-sm opacity-70">Google Cloud</p>
+                                            <h3 className="font-bold text-green-300">Data Analysis Master Program</h3>
+                                            <p className="text-sm opacity-70">Baroda Institute of Technology | Score: 90/100</p>
                                         </div>
                                         <span className="text-xs border border-green-500/50 px-2 py-1 rounded">VERIFIED</span>
+                                    </div>
+                                    <div className="flex items-center justify-between p-4 bg-green-500/5 rounded border border-green-500/20">
+                                        <div>
+                                            <h3 className="font-bold text-green-300">Frontend Web Developer Program</h3>
+                                            <p className="text-sm opacity-70">Baroda Institute of Technology | Score: 80/100</p>
+                                        </div>
+                                        <span className="text-xs border border-green-500/50 px-2 py-1 rounded">VERIFIED</span>
+                                    </div>
+                                    <div className="flex items-center justify-between p-4 bg-green-500/5 rounded border border-green-500/20">
+                                        <div>
+                                            <h3 className="font-bold text-green-300">The Duke of Edinburgh's International Award</h3>
+                                            <p className="text-sm opacity-70">Bronze Medalist</p>
+                                        </div>
+                                        <span className="text-xs border border-green-500/50 px-2 py-1 rounded">AWARD</span>
                                     </div>
                                 </div>
                             </div>

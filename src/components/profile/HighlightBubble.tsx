@@ -1,6 +1,6 @@
 "use client";
 
-import { Brain, Globe, Shield, Palette, LucideIcon } from "lucide-react";
+import { Brain, Globe, Shield, Palette, LucideIcon, Database, Code, Award } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const iconMap: Record<string, LucideIcon> = {
@@ -8,6 +8,9 @@ const iconMap: Record<string, LucideIcon> = {
     Globe,
     Shield,
     Palette,
+    Database,
+    Code,
+    Award,
 };
 
 interface HighlightBubbleProps {

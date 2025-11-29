@@ -44,17 +44,39 @@ export function DmWindow() {
         setInputValue("");
         setIsTyping(true);
 
-        // Simulate bot response
+        // Simulated AI Logic
+        const lowerInput = inputValue.toLowerCase();
+        let responseText = "I'm not sure about that. Try asking about my 'projects', 'skills', 'experience', or 'contact' info!";
+
+        if (lowerInput.includes("hello") || lowerInput.includes("hi") || lowerInput.includes("hey")) {
+            responseText = "Hello! I'm KrishAI. How can I help you today? Ask me about my projects or skills!";
+        } else if (lowerInput.includes("project") || lowerInput.includes("work") || lowerInput.includes("build")) {
+            responseText = "I've worked on some cool things! Check out 'Krishgram' (this app!), a Jewellery Store demo, and more in the Projects tab.";
+        } else if (lowerInput.includes("skill") || lowerInput.includes("stack") || lowerInput.includes("tech")) {
+            responseText = "My tech stack includes React, Next.js, TypeScript, Tailwind CSS, Node.js, and Python. I love building modern web apps!";
+        } else if (lowerInput.includes("contact") || lowerInput.includes("email") || lowerInput.includes("reach")) {
+            responseText = "You can reach me at krishkavathia27@gmail.com. I'm always open to new opportunities!";
+        } else if (lowerInput.includes("resume") || lowerInput.includes("cv")) {
+            responseText = "You can view my interactive resume by clicking the 'Resume.exe' icon on the desktop!";
+        } else if (lowerInput.includes("about") || lowerInput.includes("who are you")) {
+            responseText = "I'm a simulated AI assistant for Krish's portfolio. I'm here to help you navigate and learn more about his work.";
+        } else if (lowerInput.includes("fibonacci") || (lowerInput.includes("python") && lowerInput.includes("code"))) {
+            responseText = "Sure! Here is a Python program for the Fibonacci series:\n\ndef fibonacci(n):\n    a, b = 0, 1\n    for _ in range(n):\n        print(a)\n        a, b = b, a + b\n\nfibonacci(10)";
+        }
+
+        // Simulate variable typing delay based on response length
+        const delay = Math.min(1000 + responseText.length * 20, 3000);
+
         setTimeout(() => {
             setIsTyping(false);
             const botResponse: Message = {
                 id: (Date.now() + 1).toString(),
                 sender: "bot",
-                text: "Thanks for reaching out! I'll get back to you as soon as possible. In the meantime, feel free to check out my projects.",
+                text: responseText,
                 timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
             };
             setMessages((prev) => [...prev, botResponse]);
-        }, 1500);
+        }, delay);
     };
 
     return (
@@ -121,7 +143,7 @@ export function DmWindow() {
                                         : "bg-muted text-foreground rounded-bl-none"
                                 )}
                             >
-                                <p>{msg.text}</p>
+                                <p className="whitespace-pre-wrap font-sans">{msg.text}</p>
                             </div>
                         </motion.div>
                     ))}

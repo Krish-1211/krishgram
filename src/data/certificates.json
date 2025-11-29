@@ -1,26 +1,34 @@
 [
     {
         "id": "1",
-        "title": "AWS Certified Solutions Architect",
-        "issuer": "Amazon Web Services",
-        "date": "Aug 2024",
-        "image": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1000&auto=format&fit=crop",
+        "title": "Data Science Professional Program",
+        "issuer": "Baroda Institute of Technology",
+        "date": "2023",
+        "image": "https://images.unsplash.com/photo-1589330694653-4a8b243e3d53?w=800&q=80",
         "credentialUrl": "#"
     },
     {
         "id": "2",
-        "title": "Google Professional Cloud Developer",
-        "issuer": "Google Cloud",
-        "date": "May 2024",
-        "image": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=1000&auto=format&fit=crop",
+        "title": "Data Analysis Master Program",
+        "issuer": "Baroda Institute of Technology",
+        "date": "2023",
+        "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
         "credentialUrl": "#"
     },
     {
         "id": "3",
-        "title": "Certified Kubernetes Administrator",
-        "issuer": "CNCF",
-        "date": "Jan 2024",
-        "image": "https://images.unsplash.com/photo-1667372393119-c81c0cda0518?q=80&w=1000&auto=format&fit=crop",
+        "title": "Frontend Web Developer Program",
+        "issuer": "Baroda Institute of Technology",
+        "date": "2023",
+        "image": "https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=800&q=80",
+        "credentialUrl": "#"
+    },
+    {
+        "id": "4",
+        "title": "The Duke of Edinburgh's International Award",
+        "issuer": "International Award Foundation",
+        "date": "2022",
+        "image": "https://images.unsplash.com/photo-1612832021455-245cdf08e4b4?w=800&q=80",
         "credentialUrl": "#"
     }
 ]

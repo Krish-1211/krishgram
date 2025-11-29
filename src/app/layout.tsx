@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Oleo_Script } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
@@ -8,6 +8,12 @@ import { Footer } from "@/components/layout/Footer";
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
+});
+
+const oleoScript = Oleo_Script({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-oleo",
 });
 
 export const metadata: Metadata = {
@@ -23,8 +29,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
+        suppressHydrationWarning
         className={cn(
           inter.variable,
+          oleoScript.variable,
           "antialiased min-h-screen bg-background text-foreground"
         )}
       >

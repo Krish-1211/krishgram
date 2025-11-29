@@ -1,40 +1,46 @@
 {
     "name": "Krish Kavathia",
-    "username": "krishcodes",
-    "tagline": "Building digital experiences that matter.",
-    "bio": "Full Stack Developer 👨‍💻 | AI Enthusiast 🤖 | Security Researcher 🔐\nTurning coffee into code since 2020.",
-    "avatar": "https://github.com/shadcn.png",
+    "username": "krish_kavathia",
+    "tagline": "CSE Student | Data Science | Web Dev",
+    "bio": "Motivated Computer Science Engineering student passionate about Data Science, Web Development, and AI. Experienced in delivering real-world projects and teaching core CS subjects.",
+    "avatar": "https://github.com/Krish-1211.png",
     "stats": {
-        "projects": 42,
-        "years": 4,
-        "commits": "2.5k+"
+        "posts": 4,
+        "followers": 342,
+        "following": 185
     },
-    "socials": {
-        "github": "https://github.com",
-        "linkedin": "https://linkedin.com",
-        "twitter": "https://twitter.com",
-        "email": "mailto:krish@example.com"
-    },
+    "socials": [
+        {
+            "platform": "GitHub",
+            "url": "https://github.com/Krish-1211",
+            "icon": "Github"
+        },
+        {
+            "platform": "Email",
+            "url": "mailto:2203051050311@paruluniversity.ac.in",
+            "icon": "Mail"
+        },
+        {
+            "platform": "Website",
+            "url": "https://realestatebyreena.com",
+            "icon": "Globe"
+        }
+    ],
     "highlights": [
         {
             "id": "1",
-            "label": "AI & ML",
-            "icon": "Brain"
+            "title": "Data Sci",
+            "icon": "Database"
         },
         {
             "id": "2",
-            "label": "Web Dev",
-            "icon": "Globe"
+            "title": "Web Dev",
+            "icon": "Code"
         },
         {
             "id": "3",
-            "label": "Security",
-            "icon": "Shield"
-        },
-        {
-            "id": "4",
-            "label": "Design",
-            "icon": "Palette"
+            "title": "Awards",
+            "icon": "Award"
         }
     ]
 }

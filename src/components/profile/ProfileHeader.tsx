@@ -1,7 +1,15 @@
 "use client";
 
 import Image from "next/image";
-import { Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail, Twitter, Globe, LucideIcon } from "lucide-react";
+
+const iconMap: Record<string, LucideIcon> = {
+    Github,
+    Linkedin,
+    Twitter,
+    Mail,
+    Globe,
+};
 
 interface ProfileHeaderProps {
     profile: {
@@ -11,16 +19,15 @@ interface ProfileHeaderProps {
         bio: string;
         avatar: string;
         stats: {
-            projects: number;
-            years: number;
-            commits: string;
+            posts: number;
+            followers: number;
+            following: number;
         };
         socials: {
-            github: string;
-            linkedin: string;
-            twitter: string;
-            email: string;
-        };
+            platform: string;
+            url: string;
+            icon: string;
+        }[];
     };
 }
 
@@ -44,16 +51,16 @@ export function ProfileHeader({ profile }: ProfileHeaderProps) {
                 {/* Stats */}
                 <div className="flex flex-1 justify-around ml-4 md:ml-12">
                     <div className="flex flex-col items-center">
-                        <span className="font-bold text-lg md:text-xl">{profile.stats.projects}</span>
-                        <span className="text-xs text-muted-foreground">Projects</span>
+                        <span className="font-bold text-lg md:text-xl">{profile.stats.posts}</span>
+                        <span className="text-xs text-muted-foreground">Posts</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <span className="font-bold text-lg md:text-xl">{profile.stats.years}</span>
-                        <span className="text-xs text-muted-foreground">Years Exp</span>
+                        <span className="font-bold text-lg md:text-xl">{profile.stats.followers}</span>
+                        <span className="text-xs text-muted-foreground">Followers</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <span className="font-bold text-lg md:text-xl">{profile.stats.commits}</span>
-                        <span className="text-xs text-muted-foreground">Commits</span>
+                        <span className="font-bold text-lg md:text-xl">{profile.stats.following}</span>
+                        <span className="text-xs text-muted-foreground">Following</span>
                     </div>
                 </div>
             </div>
@@ -67,18 +74,20 @@ export function ProfileHeader({ profile }: ProfileHeaderProps) {
 
             {/* Socials */}
             <div className="flex gap-4">
-                <a href={profile.socials.github} target="_blank" rel="noopener noreferrer" className="p-2 bg-muted rounded-full hover:bg-muted/80 transition-colors">
-                    <Github className="h-5 w-5" />
-                </a>
-                <a href={profile.socials.linkedin} target="_blank" rel="noopener noreferrer" className="p-2 bg-muted rounded-full hover:bg-muted/80 transition-colors">
-                    <Linkedin className="h-5 w-5" />
-                </a>
-                <a href={profile.socials.twitter} target="_blank" rel="noopener noreferrer" className="p-2 bg-muted rounded-full hover:bg-muted/80 transition-colors">
-                    <Twitter className="h-5 w-5" />
-                </a>
-                <a href={profile.socials.email} className="p-2 bg-muted rounded-full hover:bg-muted/80 transition-colors">
-                    <Mail className="h-5 w-5" />
-                </a>
+                {profile.socials.map((social) => {
+                    const Icon = iconMap[social.icon] || Globe;
+                    return (
+                        <a
+                            key={social.platform}
+                            href={social.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="p-2 bg-muted rounded-full hover:bg-muted/80 transition-colors"
+                        >
+                            <Icon className="h-5 w-5" />
+                        </a>
+                    );
+                })}
             </div>
         </div>
     );

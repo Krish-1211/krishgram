@@ -1,7 +1,12 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === 'production';
+
 const nextConfig: NextConfig = {
+  output: isProd ? 'export' : undefined,
+  basePath: isProd ? '/krishgram' : undefined,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -18,6 +23,10 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "picsum.photos",
+      },
+      {
+        protocol: "https",
+        hostname: "placehold.co",
       },
     ],
   },
