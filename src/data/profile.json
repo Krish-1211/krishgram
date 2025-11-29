@@ -1,0 +1,40 @@
+{
+    "name": "Krish Kavathia",
+    "username": "krishcodes",
+    "tagline": "Building digital experiences that matter.",
+    "bio": "Full Stack Developer 👨‍💻 | AI Enthusiast 🤖 | Security Researcher 🔐\nTurning coffee into code since 2020.",
+    "avatar": "https://github.com/shadcn.png",
+    "stats": {
+        "projects": 42,
+        "years": 4,
+        "commits": "2.5k+"
+    },
+    "socials": {
+        "github": "https://github.com",
+        "linkedin": "https://linkedin.com",
+        "twitter": "https://twitter.com",
+        "email": "mailto:krish@example.com"
+    },
+    "highlights": [
+        {
+            "id": "1",
+            "label": "AI & ML",
+            "icon": "Brain"
+        },
+        {
+            "id": "2",
+            "label": "Web Dev",
+            "icon": "Globe"
+        },
+        {
+            "id": "3",
+            "label": "Security",
+            "icon": "Shield"
+        },
+        {
+            "id": "4",
+            "label": "Design",
+            "icon": "Palette"
+        }
+    ]
+}

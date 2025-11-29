@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "title": "AWS Certified Solutions Architect",
+        "issuer": "Amazon Web Services",
+        "date": "Aug 2024",
+        "image": "https://images.unsplash.com/photo-1523580846011-d3a5bc25702b?q=80&w=1000&auto=format&fit=crop",
+        "credentialUrl": "#"
+    },
+    {
+        "id": "2",
+        "title": "Google Professional Cloud Developer",
+        "issuer": "Google Cloud",
+        "date": "May 2024",
+        "image": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=1000&auto=format&fit=crop",
+        "credentialUrl": "#"
+    },
+    {
+        "id": "3",
+        "title": "Certified Kubernetes Administrator",
+        "issuer": "CNCF",
+        "date": "Jan 2024",
+        "image": "https://images.unsplash.com/photo-1667372393119-c81c0cda0518?q=80&w=1000&auto=format&fit=crop",
+        "credentialUrl": "#"
+    }
+]
